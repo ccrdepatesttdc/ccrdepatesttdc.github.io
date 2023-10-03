@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:ccrdepatesttdc.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:ccrdepatesttdc.github.io#e7cf732dc6a781715e50a60ea6b0710f713a725cb7f1c84a7b203c88143b7cce",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ccrdepatesttdc.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "mrDXX5XoIOH5ZHtB_YsUuNc-VZ4bzRKD7S4ej8eUCkc=",
+        "y": "IKycwGpjwWI0DFh4EnFQwU-fyr-JmBLEd2GBKuI1d40=",
+        "kid": "e7cf732dc6a781715e50a60ea6b0710f713a725cb7f1c84a7b203c88143b7cce",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
